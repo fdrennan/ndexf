@@ -1,0 +1,27 @@
+Package: ndexf
+Type: Package
+Title: Front end for ndexr course 
+Version: 0.1.9000
+Author: Freddy Drennan
+Maintainer: Freddy Drennan <drennanfreddy@gmail.com>
+Description: Contains the code to manage the frontend of this application. 
+    Some code will be moved out of this package as the course progresses. 
+License: LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends:
+  devtools,
+  roxygen2,
+  storr,
+  dplyr,
+  purrr,
+  lubridate,
+  tidyr,
+  stringr,
+  shiny,
+  dotenv,
+  usethis,
+  RSQLite,
+  dbplyr,
+  DBI
+RoxygenNote: 7.1.2
